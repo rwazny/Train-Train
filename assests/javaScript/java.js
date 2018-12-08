@@ -35,7 +35,7 @@ $("#add-train-btn").on("click", function(event) {
     .trim();
   console.log(trainName);
 
-  database.ref().push({
+  database.ref().set({
     trainName: trainName,
     trainDestination: trainDestination,
     firstTrain: firstTrain,

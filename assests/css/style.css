@@ -53,20 +53,18 @@
     rgba(35, 83, 138, 1) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
-}
-body {
-  background-image: url(../);
-}
-h1 {
   font-family: "Unlock", cursive;
-  font-size: 100px;
+  font-size: 200px;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
+  background-image: url(../images/train-tracks.jpg);
+}
+header {
 }
 
 h2 {
   font-family: "Shrikhand", cursive;
-  font-size: 50px;
+  font-size: 30px;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
 }
