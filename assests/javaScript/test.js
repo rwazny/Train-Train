@@ -9,3 +9,6 @@ console.log(empMonths);
 // Calculate the total billed rate
 var empBilled = empMonths * empRate;
 console.log(empBilled);
+
+//HTMl
+<div class="jumbotron"><img src="../Train-Train/assests/images/jumboTrain.jpg"></div>
